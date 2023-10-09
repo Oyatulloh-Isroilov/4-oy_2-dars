@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if14</title>
+</head>
+
+<body>
+    <!-- if14 -->
+    <script>
+        let a = + prompt("1-sonni kiriting");
+        let b = + prompt("2-sonni kiriting");
+        let c = + prompt("3-sonni kiriting");
+
+        if (a >= b) {
+            if (b <= c) {
+                document.write(a + " katta son " + b + " kichik son ");
+            }
+        } else if (b >= c) {
+            if (c <= a) {
+                document.write(b + " katta son " + c + " kichik son ");
+            }
+        } else if (c >= a) {
+            if (a <= b) {
+                document.write(c + " katta son " + a + " kichik son ");
+            }
+        }
+    </script>
+</body>
+
+</html>
